@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  AWS_BUCKET: arn:aws:s3:::microservices-sage-dev
-  AWS_REGION: us-east-1
+  AWS_BUCKET: arn:aws:s3:::udagram-bucket-tuzi
+  AWS_REGION: us-east-2
   AWS_PROFILE: default
   URL: http://localhost:8100
