@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ./udagram-frontend
-    image: s4g3/udagram-frontend:v6
+    image: s4g3/udagram-frontend:v7

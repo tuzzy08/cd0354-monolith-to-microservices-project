@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: s4g3/udagram-frontend:v6
+        image: s4g3/udagram-frontend:v7
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
