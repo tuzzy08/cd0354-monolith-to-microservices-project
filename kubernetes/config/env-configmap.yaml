@@ -4,6 +4,6 @@ metadata:
   name: env-config
 data:
   AWS_BUCKET: arn:aws:s3:::udagram-bucket-tuzi
-  AWS_REGION: us-east-2
+  AWS_REGION: eu-west-2
   AWS_PROFILE: default
   URL: http://localhost:8100

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: s4g3/udagram-frontend
+        image: s4g3/udagram-frontend:v3
         ports:
         - containerPort: 80
