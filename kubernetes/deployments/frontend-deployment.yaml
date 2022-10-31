@@ -3,9 +3,9 @@ kind: Deployment
 metadata:
   name: frontend
   labels:
-    app: frontend
+    Deployment: frontend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: frontend
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: s4g3/udagram-frontend:v7
+        image: s4g3/udagram-frontend:v8
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
