@@ -31,6 +31,8 @@ $RECYCLE.BIN/
 postgres_dev/
 logfile
 
+kubernetes/
+
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
