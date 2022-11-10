@@ -15,7 +15,7 @@ spec:
         app: reverseproxy
     spec:
       containers:
-      - image: s4g3/reverseproxy:v8
+      - image: s4g3/reverseproxy:v9
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
@@ -26,5 +26,5 @@ spec:
             memory: "1024Mi"
             cpu: "500m"       
         ports:
-        - containerPort: 8100
+        - containerPort: 8080
       restartPolicy: Always
